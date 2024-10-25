@@ -41,7 +41,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 5) Create our own backend GraphQL endpoint with schema and resolvers
 6) Use `@graphql-codegen/cli` to generate JS types/models
 7) Allow users to leave a review on each character
-8) Signup/Login using JWT and `localStorage` - don't use cookies due to **`CSRF`**
+8) Signup/Login using JWT and `localStorage` - don't use cookies due to **CSRF attacks**
 9) Feel free to come up with anything else 🤯
 
 
