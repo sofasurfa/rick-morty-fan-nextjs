@@ -5,7 +5,7 @@
  - Redux
  - Tailwinds.css / Shadcn
 
- Data fetched via GraphQL API from [rickandmortyapi.com](https://rickandmortyapi.com)
+ >Data fetched via GraphQL API from [rickandmortyapi.com](https://rickandmortyapi.com)
 ![](https://github.com/sofasurfa/rick-morty-fan-nextjs/blob/main/live-example.gif)
 
 # 🤷‍♂️ How to start?
