@@ -6,5 +6,5 @@
  - Tailwinds / Shadcn
 
 
-![](https://github.com/sofasurfa/rick-morty-fan-nextjs/live-example.gif)
+![](https://github.com/sofasurfa/rick-morty-fan-nextjs/blob/main/live-example.gif)
 
