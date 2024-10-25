@@ -1,4 +1,4 @@
- # Rick and Morty Fan Site (Starter Pack Example)
+ # ⭐️ Rick and Morty Fan Site (Starter Pack Example)
  ### 🔎 Looking for the perfect NextJS example using the latest and greatest? **You came to the right place!**
  - React/NextJS
  - Apollo GraphQL (SSR - server side rendering)
