@@ -2,7 +2,7 @@
  ### 🔎 Looking for the perfect NextJS example using the latest and greatest? ***You came to the right boilerplate!***
  - React/NextJS
  - Apollo GraphQL (SSR - [server side queries](https://www.npmjs.com/package/@apollo/experimental-nextjs-app-support))
- - Redux
+ - Redux (state management)
  - Tailwinds.css / Shadcn (fully responsive flex/grid)
 
  >Data fetched via GraphQL API from [rickandmortyapi.com](https://rickandmortyapi.com)
