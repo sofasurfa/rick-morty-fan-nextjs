@@ -45,6 +45,6 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 
 
 # 🥚 Find the egg
-🎉 There's an **easter egg** waiting for you
+🎉 There's an **easter egg** waiting for you  
 
 
