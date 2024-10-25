@@ -31,6 +31,18 @@ Feel free to contribute to this project so more people can get to use `NextJS` r
 - Remove some unused code and unrelated comments
 - Keep using SSR practices going forward
 
+## Possible future development of this peoject
+1) Run in **Docker** with `NodeJS` and `Postgres` in a single container
+2) Don't use `prisma` as ORM - maybe go vanilla SQL (some prisma [problems](https://github.com/keinsell/is-prisma-production-ready) + people report issues with pgBounder in production)
+3) Crate an `assets` folder with characters and serve via https
+4) Have a `initDatabase.sql` script `RUN` by Docker that will create database/tables and pre-populate with character data, images being the `path/name` from assets folder
+5) Create a our own backend GraphQL endpoint with schema/etc
+6) Use Apollo's codegen to generate JS/Typescript types/models
+7) Allow users to leave a review on each character
+8) Singup/Login using JWT and `localStorage` - don't use cookies due to **`CSRF`**
+9) Feel free to come up with anything else 🤯
+
+
 # 🥚 Find the egg
 🎉 There's an **easter egg** waiting for you
 
