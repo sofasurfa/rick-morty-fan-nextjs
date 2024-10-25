@@ -9,7 +9,7 @@
 ![](https://github.com/sofasurfa/rick-morty-fan-nextjs/blob/main/live-example.gif)
 
 # 🤷‍♂️ How to start?
-To start: just run `pnpm run dev` (use `pnpm` instead of `npm` - [here's why](https://refine.dev/blog/pnpm-vs-npm-and-yarn/#why-not-npm-or-yarn))
+**To start:** just run `pnpm run dev` (use `pnpm` instead of `npm` - [here's why](https://refine.dev/blog/pnpm-vs-npm-and-yarn/#why-not-npm-or-yarn))
 ## Lint
 `pnpm run lint` will lint your code via *eslint* and *Next* will tell you how to fix/optimise your code
 ## Format
@@ -22,7 +22,7 @@ This also will cause your `Tailwinds` classes to be sorted (be in the right orde
 No, NextJS is a framework that runs on top of NodeJS on port `3000` / `localhost:3000` with **its own default server.** For custom GraphQL server, REST API, authenticaion logic, etc - [you can create your own server](https://nextjs.org/docs/pages/building-your-application/configuring/custom-server)
 
 # 👷‍♂️ Work in progress
-Feel free to contribute to this project so more people can get to use `NextJS` right out the box!
+Feel free to contribute to this project so more people can get to use **NextJS** right out the box!
 
 ## 📌 Todos
 - Use `localStorage` for persistence (after page reload) for likes in `/providers/redux-store.js`
