@@ -19,7 +19,7 @@ This also will cause your `Tailwinds` classes to be sorted (be in the right orde
 
 
 # 🤨 Wait, there's no need to run `node myServer.js`?
-No, NextJS is a framework that runs on top of NodeJS on port `3000` / `localhost:3000` with **its own default server.** For custom GraphQL server, REST API, authenticaion logic, etc - [you can create your own server](https://nextjs.org/docs/pages/building-your-application/configuring/custom-server)
+No, NextJS is a framework that runs on top of NodeJS on port `3000` / `localhost:3000` with **its own default server.** For a custom GraphQL server, REST API, authenticaion logic, etc - [you can create your own server](https://nextjs.org/docs/pages/building-your-application/configuring/custom-server)
 
 # 👷‍♂️ Work in progress
 Feel free to contribute to this project so more people can get to use **NextJS** right out the box!
@@ -32,7 +32,8 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 - Keep using SSR practices going forward
 
 ## 💪 Possible future of this peoject
-1) Run in **Docker** with `NodeJS` and `Postgres` in a single container
+### 🚀 Vision: front/backend application that people can modify to ***build things faster***
+1) Run in **Docker** with `NodeJS` and `Postgres` in a single container (add a `/build` folder with **Dockerfile** and **compose.yml** inside)
 2) Don't use `prisma` as ORM - maybe go vanilla SQL (some prisma [problems](https://github.com/keinsell/is-prisma-production-ready) + people report issues with `pgBouncer` in production)
 3) Crate an `assets` folder with character images and serve via https
 4) Have a `initDatabase.sql` script `RUN` by Docker that will create database/tables and pre-populate with character data, images being the `path/name` from assets folder
