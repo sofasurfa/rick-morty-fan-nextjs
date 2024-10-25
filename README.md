@@ -3,7 +3,7 @@
  - React/NextJS
  - Apollo GraphQL (SSR - server side rendering)
  - Redux
- - Tailwinds.css / Shadcn
+ - Tailwinds.css / Shadcn (fully responsive flex/grid)
 
  >Data fetched via GraphQL API from [rickandmortyapi.com](https://rickandmortyapi.com)
 ![](https://github.com/sofasurfa/rick-morty-fan-nextjs/blob/main/live-example.gif)
@@ -29,6 +29,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 - Keep states alive when going back/forward
 - Add useful comments so javascript begineers know what the code is doing
 - Remove some unused code and unrelated comments
+- Make a mobile menu (hamburger icon that opens a side bar)
 - Keep using SSR practices going forward
 
 ## 💪 Possible future of this peoject
