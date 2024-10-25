@@ -31,7 +31,7 @@ Feel free to contribute to this project so more people can get to use `NextJS` r
 - Remove some unused code and unrelated comments
 - Keep using SSR practices going forward
 
-## 💪 Possible future developments of this peoject
+## 💪 Possible future of this peoject
 1) Run in **Docker** with `NodeJS` and `Postgres` in a single container
 2) Don't use `prisma` as ORM - maybe go vanilla SQL (some prisma [problems](https://github.com/keinsell/is-prisma-production-ready) + people report issues with `pgBouncer` in production)
 3) Crate an `assets` folder with character images and serve via https
