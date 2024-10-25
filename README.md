@@ -35,7 +35,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 ### 🚀 Vision: the go-to NextJS front/backend repo that people can modify to ***build things faster***
 1) Run in **Docker** with `NodeJS` and `Postgres` in a single container (add a `/build` folder with **Dockerfile** and **compose.yml** inside)
 2) Don't use `prisma` as ORM - maybe go vanilla SQL via [Postgres.js](https://github.com/porsager/postgres) or [something promissing](https://github.com/alfateam/orange-orm). Why? some prisma [problems](https://github.com/keinsell/is-prisma-production-ready) + people report issues with `pgBouncer` in production)
-3) Crate an `assets` folder with character images and serve via https
+3) Add character images to `pulibc` folder, nextJS will [serve them automatically](https://nextjs.org/docs/pages/building-your-application/optimizing/static-assets)
 4) Have a `initDatabase.sql` script `RUN` by Docker that will create database/tables and pre-populate with character data, images being the `path/name` from assets folder
 5) Create our own backend GraphQL endpoint with schema and resolvers
 6) Use `@graphql-codegen/cli` to generate JS types/models
