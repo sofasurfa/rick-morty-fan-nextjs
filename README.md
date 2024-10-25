@@ -27,6 +27,8 @@ Feel free to contribute to this project so more people can get to use `NextJS` r
 ## 📌 Todos
 - Use `localStorage` for persistence (after page reload) for likes in `/providers/redux-store.js`
 - Keep states alive when going back/forward
+- Add useful comments so javascript begineers know what the code is doing
+- Remove some unused code and unrelated comments
 - Keep using SSR practices going forward
 
 # 🥚 Find the egg
