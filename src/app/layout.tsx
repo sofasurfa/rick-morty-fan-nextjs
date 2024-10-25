@@ -69,7 +69,7 @@ function NavBar() {
               <HoverCardContent className='w-80'>
                 <div className='flex justify-between space-x-4'>
                   <Avatar>
-                    <AvatarImage src='./next.svg' />
+                    <AvatarImage src='./rick-nav-logo.png' />
                     <AvatarFallback>VC</AvatarFallback>
                   </Avatar>
                   <div className='space-y-1'>
