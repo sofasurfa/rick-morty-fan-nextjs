@@ -38,7 +38,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 3) Crate an `assets` folder with character images and serve via https
 4) Have a `initDatabase.sql` script `RUN` by Docker that will create database/tables and pre-populate with character data, images being the `path/name` from assets folder
 5) Create our own backend GraphQL endpoint with schema and resolvers
-6) Use Apollo's codegen to generate JS types/models
+6) Use `@graphql-codegen/cli` to generate JS types/models
 7) Allow users to leave a review on each character
 8) Singup/Login using JWT and `localStorage` - don't use cookies due to **`CSRF`**
 9) Feel free to come up with anything else 🤯
