@@ -3,7 +3,7 @@
  - React/NextJS
  - Apollo GraphQL (SSR - server side rendering)
  - Redux
- - Tailwinds / Shadcn
+ - Tailwinds.css / Shadcn
 
  Data fetched via GraphQL API from [rickandmortyapi.com](https://rickandmortyapi.com)
 ![](https://github.com/sofasurfa/rick-morty-fan-nextjs/blob/main/live-example.gif)
@@ -18,6 +18,11 @@ No, NextJS is a framework that runs on top of NodeJS on port `3000` / `localhost
 Feel free to commit to this project
 
 ## Todos
-- Use `localStorage` for likes in `/providers/redux-store.js`
+- Use `localStorage` for persistence (after page reload) for likes in `/providers/redux-store.js`
 - Keep states alive when going back/forward
-- Adopt more SSR practices 
+- Keep using SSR practices going forward
+
+# 🥚 Click on the egg
+There's an **easter egg** waiting for you
+
+
