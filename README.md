@@ -44,6 +44,8 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 8) Signup/Login using JWT and `localStorage` - don't use cookies due to **CSRF attacks**
 9) Feel free to come up with anything else 🤯💥👽
 
+# 😵 SSR/Suspense? I am a confused cookie
+To understand SSR and Streaming, [read this](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming#streaming-with-suspense). And remember: you are a smart 🍪!
 
 # 🥚 Find the egg
 🎉 There's an **easter egg** waiting for you  
