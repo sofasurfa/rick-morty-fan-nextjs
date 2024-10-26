@@ -1,7 +1,7 @@
  # ⭐️ Rick and Morty Fan Site (NextJS Starter Pack)
  ### 🔎 Looking for the perfect NextJS example using the latest and greatest? ***You came to the right boilerplate!***
  - React/NextJS
- - Apollo GraphQL (SSR - [server side queries](https://www.npmjs.com/package/@apollo/experimental-nextjs-app-support))
+ - Apollo GraphQL (SSR/Suspense with [server side queries](https://www.npmjs.com/package/@apollo/experimental-nextjs-app-support))
  - Redux (state management)
  - Tailwinds.css / Shadcn (fully responsive flex/grid)
 
