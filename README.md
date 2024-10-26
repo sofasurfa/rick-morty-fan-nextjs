@@ -45,7 +45,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 9) Feel free to come up with anything else 🤯💥👽
 
 # 😵 SSR/Suspense? I am a confused cookie
-To understand SSR and Streaming, [read this](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming#streaming-with-suspense). And remember: you are a smart 🍪!
+To understand SSR and Streaming, [read this](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming#streaming-with-suspense). NextJS makes it easy to render things on the server first (at least partially). This helps search engine crawlers (Google,Bing,Yandex) to find your `<title>/<meta>` tags. Though, you have to [add some extra code](https://nextjs.org/docs/app/building-your-application/optimizing/metadata) to add the tags for each page. And remember: you are a smart 🍪!
 
 # 🥚 Find the egg
 🎉 There's an **easter egg** waiting for you  
