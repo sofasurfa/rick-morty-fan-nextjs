@@ -42,7 +42,7 @@ export default function RootLayout({
             {/* 
           div with min-h-screen needed as we have a footer 
           AND  we want the footer to be at the bottom even if zero content.
-          mt-16 = margin same as nav height
+          mt-16 = margin top same as nav height bcz nav overlays on top.
           */}
             <div className='mt-16 flex min-h-screen flex-col'>{children}</div>
             <Footer />

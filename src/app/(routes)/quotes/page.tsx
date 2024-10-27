@@ -45,11 +45,11 @@ export default function Quotes() {
         <ResponsiveModalContent side={side}>
           <ResponsiveModalHeader>
             <ResponsiveModalTitle>
-              This dialog will popup from {side} on mobile, but centered on
-              desktop - try to resize your window.
+              You have found the 🥚!
             </ResponsiveModalTitle>
             <ResponsiveModalDescription>
-              <Image
+              This dialog will popup from {side} on mobile, but will be centered on desktop - try to resize your window.
+              <img
                 alt='Where are we?'
                 src='https://media.giphy.com/media/jS1neGDOkaHmn36A6D/giphy.gif?cid=790b7611enmk4977cltezak7d8eufu6at0z4mdfn4c51ypq1&ep=v1_gifs_search&rid=giphy.gif&ct=g'
               />
