@@ -149,7 +149,7 @@ export default function CharacterPage() {
                 Add to Cart
               </Button> */}
               <Button size="lg" variant="outline" onClick={handleLikeToggle}>
-                <Heart {...(isLiked ? { fill: 'red', color: 'red' } : {})} className="w-5 h-5" />  Like "{data.character.name}"
+                <Heart {...(isLiked ? { fill: 'red', color: 'red' } : {})} className="w-5 h-5" />  {isLiked ? 'Unlike' : 'Like'} "{data.character.name}"
               </Button>
             </div>
           </div>
