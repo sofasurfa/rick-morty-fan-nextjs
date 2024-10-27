@@ -26,7 +26,7 @@ No, NextJS is a framework that runs on top of NodeJS on port `3000` / `localhost
 Feel free to contribute to this project so more people can get to use **NextJS** right out the box!
 
 ## 📌 Todos
-- Add/generate `<title>/<meta>` tags using NextJS `Metadata`
+- Add/generate `<title>/<meta>` tags using NextJS `Metadata` fo SEO 
 - Use `localStorage` for persistence (after page reload) for likes in `/providers/redux-store.js`
 - Keep states alive when going back/forward
 - Add useful comments so javascript begineers know what the code is doing
@@ -47,7 +47,7 @@ Feel free to contribute to this project so more people can get to use **NextJS**
 9) Feel free to come up with anything else 🤯💥👽
 
 # 😵 SSR/Suspense? I am a confused cookie
-To understand SSR and Streaming, [read this](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming#streaming-with-suspense). NextJS makes it easy to render things on the server first (at least partially). This helps search engine crawlers (Google,Bing,Yandex) to find your `<title>/<meta>` tags. Though, you have to [add some extra code](https://nextjs.org/docs/app/building-your-application/optimizing/metadata) to include the tags on each page. And remember: you are a smart 🍪!
+To understand SSR and Streaming, [read this](https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming#streaming-with-suspense). NextJS makes it easy to render things on the server first (at least partially). This helps search engine crawlers (Google,Bing,Yandex) to find your `<title>/<meta>` tags improving your SEO. Though, you have to [add some extra code](https://nextjs.org/docs/app/building-your-application/optimizing/metadata) to include the tags on each page. And remember: you are a smart 🍪!
 
 # 🥚 Find the egg
 🎉 There's an **easter egg** waiting for you  
