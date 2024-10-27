@@ -1,4 +1,4 @@
-import '@/src/styles/globals.css';
+import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -6,20 +6,20 @@ import { Inter } from 'next/font/google';
 import { CalendarDays } from 'lucide-react';
 import { Provider as ReduxProvider } from 'react-redux';
 // Local
-import { ApolloWrapper } from '@/src/graphql/apollo-wrapper';
+import { ApolloWrapper } from '@/graphql/apollo-wrapper';
 import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from '@/src/components/ui/avatar';
-import { Button } from '@/src/components/ui/button';
-import { Toaster } from '@/src/components/ui/toaster';
+} from '@/components/ui/avatar';
+import { Button } from '@/components/ui/button';
+import { Toaster } from '@/components/ui/toaster';
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
-} from '@/src/components/ui/hover-card';
-import StoreProvider from '@/src/lib/providers/store-provider';
+} from '@/components/ui/hover-card';
+import StoreProvider from '@/lib/providers/store-provider';
 
 const inter = Inter({ subsets: ['latin'] });
 

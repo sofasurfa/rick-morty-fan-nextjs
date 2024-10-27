@@ -9,12 +9,12 @@ import { useParams } from 'next/navigation';
 
 import { useDispatch, useSelector } from 'react-redux'
 // Local
-import { Button } from '@/src/components/ui/button'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/src/components/ui/tabs'
-import { toggleLikedUser } from '@/src/lib/providers/redux-store'
-import type { RootState } from '@/src/lib/providers/redux-store'
-import { type DataStructure } from '@/src/types/types'
-import { Character } from '@/src/types/types'
+import { Button } from '@/components/ui/button'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { toggleLikedUser } from '@/lib/providers/redux-store'
+import type { RootState } from '@/lib/providers/redux-store'
+import { type DataStructure } from '@/types/types'
+import { Character } from '@/types/types'
 
 
 

@@ -1,4 +1,4 @@
-import { LoginForm } from '@/src/app/(routes)/(auth)/login/_components/login-form';
+import { LoginForm } from '@/app/(routes)/(auth)/login/_components/login-form';
 // import { LoginForm } from '@/app/components/login-form';
 
 export default function Page() {

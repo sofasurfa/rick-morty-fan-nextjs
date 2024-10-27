@@ -9,9 +9,9 @@ import {
     CardFooter,
     CardHeader,
     CardTitle,
-} from '@/src/components/ui/card';
+} from '@/components/ui/card';
 // Local
-import type { RootState } from '@/src/lib/providers/redux-store';
+import type { RootState } from '@/lib/providers/redux-store';
 
 export default function LikedUsersList() {
     const likedUsers = useSelector(

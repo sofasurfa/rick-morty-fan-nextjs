@@ -1,4 +1,3 @@
-import { toast } from './src/hooks/use-toast';
 
 const { fontFamily } = require('tailwindcss/defaultTheme');
 

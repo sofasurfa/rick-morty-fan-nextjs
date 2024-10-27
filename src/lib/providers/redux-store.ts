@@ -1,5 +1,5 @@
 import { configureStore, createSlice, PayloadAction } from '@reduxjs/toolkit';
-import { Character } from '@/src/types/types';
+import { Character } from '@/types/types';
 
 interface LikedUsersState {
   likedUsers: Record<string, Character>;

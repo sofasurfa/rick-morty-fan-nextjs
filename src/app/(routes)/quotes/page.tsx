@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import { Button } from '@/src/components/ui/button';
+import { Button } from '@/components/ui/button';
 import {
   ResponsiveModal,
   ResponsiveModalContent,
@@ -8,7 +8,7 @@ import {
   ResponsiveModalHeader,
   ResponsiveModalTitle,
   ResponsiveModalTrigger,
-} from '@/src/components/ui/responsive-modal';
+} from '@/components/ui/responsive-modal';
 
 export default function Quotes() {
   /// const data = await queryRSC();

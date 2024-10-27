@@ -2,15 +2,15 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { gql, useQuery } from '@apollo/client';
-import { type DataStructure } from '@/src/types/types';
+import { type DataStructure } from '@/types/types';
 import { useSuspenseQuery } from '@apollo/experimental-nextjs-app-support/ssr';
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from '@/src/components/ui/tabs';
-import { Spinner } from '@/src/components/ui/spinner';
+} from '@/components/ui/tabs';
+import { Spinner } from '@/components/ui/spinner';
 import { useState, Suspense, useEffect } from 'react';
 import {
   Card,
@@ -19,7 +19,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from '@/src/components/ui/card';
+} from '@/components/ui/card';
 
 function CharacterList() {
   const [nameFilter, setNameFilter] = useState('rick');

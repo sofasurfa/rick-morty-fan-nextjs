@@ -10,11 +10,11 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from '@/src/components/ui/form';
-import { AutosizeTextarea } from '@/src/components/ui/autosize-textarea';
-import { LoadingButton } from '@/src/components/ui/loading-button';
+} from '@/components/ui/form';
+import { AutosizeTextarea } from '@/components/ui/autosize-textarea';
+import { LoadingButton } from '@/components/ui/loading-button';
 import { useState } from 'react';
-import { useToast } from '@/src/hooks/use-toast';
+import { useToast } from '@/hooks/use-toast';
 import { Asap_Condensed } from 'next/font/google';
 
 const FormSchema = z.object({

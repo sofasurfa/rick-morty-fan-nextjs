@@ -1,5 +1,5 @@
 import React from 'react';
-import { cn } from '@/src/lib/utils';
+import { cn } from '@/lib/utils';
 import { VariantProps, cva } from 'class-variance-authority';
 import { Loader2 } from 'lucide-react';
 
@@ -30,7 +30,7 @@ const loaderVariants = cva('animate-spin text-primary', {
 
 interface SpinnerContentProps
   extends VariantProps<typeof spinnerVariants>,
-    VariantProps<typeof loaderVariants> {
+  VariantProps<typeof loaderVariants> {
   className?: string;
   children?: React.ReactNode;
 }
