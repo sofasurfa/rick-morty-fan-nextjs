@@ -52,7 +52,7 @@ function CharacterList() {
 
   // Filter logic
   useMemo(() => {
-    if (!searchFilter) return;
+    // if (!searchFilter) return;
     const filteredResults = queryResult.data.characters.results.filter(value => value.name.toLowerCase().includes(searchFilter.toLowerCase()))
     setCharacters(filteredResults)
   }, [searchFilter]);
