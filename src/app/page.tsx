@@ -51,8 +51,8 @@ function CharacterList() {
 
 
   // Filter logic
-  useMemo(() => {
-    // if (!searchFilter) return;
+  useMemo(async () => {
+    await new Promise(resolve => setTimeout(resolve, 500)); // 0.5s delay waiting for typing to stop
     const filteredResults = queryResult.data.characters.results.filter(value => value.name.toLowerCase().includes(searchFilter.toLowerCase()))
     setCharacters(filteredResults)
   }, [searchFilter]);
