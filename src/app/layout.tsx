@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import { useState } from 'react';
 import Image from 'next/image';
 import { Inter } from 'next/font/google';
 import { CalendarDays } from 'lucide-react';
@@ -20,6 +21,7 @@ import {
   HoverCardTrigger,
 } from '@/components/ui/hover-card';
 import StoreProvider from '@/lib/providers/store-provider';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -48,18 +50,21 @@ export default function RootLayout({
             <Footer />
           </StoreProvider>
         </ApolloWrapper>
-        <Toaster />
+        <Toaster /> {/* to show pop up notifiations */}
       </body>
     </html>
   );
 }
 
 function NavBar() {
+
+
   return (
     <nav className='fixed left-0 right-0 top-0 z-50 border-b bg-surface'>
       <div className='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8'>
         <div className='flex h-16 items-center justify-between'>
           <div className='flex items-center'>
+
             <HoverCard>
               <HoverCardTrigger asChild>
                 <Link href='/'>

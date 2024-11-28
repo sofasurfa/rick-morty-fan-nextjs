@@ -73,14 +73,12 @@ export default function CharacterPage() {
   const { userId } = router;
 
 
-
   // Data fetch
   const { data }: DataStructure = useSuspenseQuery(SEARCH_QUERY, {
     variables: { userId }
   });
 
   // Like button logic
-
   const dispatch = useDispatch()
   const likedUsers = useSelector((state: RootState) => state.likedUsers.likedUsers)
   // const [likedCharacter, setLikedCharacter] = useState<Character | null>(null)

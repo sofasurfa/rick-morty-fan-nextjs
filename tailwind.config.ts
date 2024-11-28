@@ -76,3 +76,4 @@ module.exports = {
   },
   plugins: [require('tailwindcss-animate')],
 };
+// for animation could try: tailwindcss-motion by Rombo
