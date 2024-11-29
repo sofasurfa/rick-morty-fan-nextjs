@@ -26,8 +26,8 @@ import StoreProvider from '@/lib/providers/store-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Trade Local',
-  description: 'Buy and Sell locally',
+  title: 'Rick and Morty Fan website',
+  description: 'Fan website made in NextJS',
 };
 
 export default function RootLayout({
